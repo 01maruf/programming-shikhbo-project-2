@@ -1,0 +1,87 @@
+*
+{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #110A38;
+    position: sticky;
+    top: 0;
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 10px 5px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px 30px;
+    transition: 1s;
+
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: brown;
+    border-radius: 5px;
+}
+
+nav div {
+    color: aliceblue;
+    font-size: 20px;
+}
+form{ 
+    width: 800px ;
+    background-color: lightpink;
+    margin: 80px auto;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px gray;
+}
+form label{font-weight:bolder ;}
+form h1{ 
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+   color: blue;
+}
+form input{ 
+    margin: 20px auto;
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+form textarea{ 
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 300px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+   
+}
+.sub-btn{ 
+    display: block;
+    margin: auto;
+    padding:10px 20px;
+    text-transform: uppercase;
+    background:linear-gradient(to left, blue,blueviolet,aqua ) ;
+    color: aliceblue;
+}
